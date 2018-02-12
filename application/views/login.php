@@ -20,7 +20,7 @@
                     <form role="form" method="post" action="<?php echo base_url('index.php/user/login_user'); ?>">
                         <fieldset>
                             <div class="form-group"  >
-                                <input class="form-control" placeholder="E-mail" name="user_email" type="email" autofocus>
+                                <input class="form-control" placeholder="E-mail" name="user_email" type="email">
                             </div>
                             <div class="form-group">
                                 <input class="form-control" placeholder="Password" name="user_password" type="password" value="">

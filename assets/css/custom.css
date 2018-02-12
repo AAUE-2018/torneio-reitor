@@ -1,0 +1,475 @@
+html, body {
+	font-family: 'Lato', sans-serif;
+	background-image: url("../imgs/bg-grande.jpg");
+	background-size:     cover;                      /* <------ */
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+.container {
+ 	padding-right: 5%;
+	padding-left: 5%;
+	margin-top: 20px;
+ 	margin-right: auto;
+	margin-left: auto;
+	min-height: 100%;
+}
+
+.titulo{
+	text-align: center;
+	padding: 10px;
+	color: white;
+	font-weight: bolder;
+}
+
+p, li {
+	color: white;
+	font-weight: lighter;
+	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+}
+
+/**********************************************/
+/*     Secção relativa ao header e footer     */
+/**********************************************/
+
+.flex {
+	display: flex;
+	height: 123px;
+}
+
+.col {
+	flex-direction: column;
+}
+
+.col, .col > div {
+	flex-grow: 1;
+}
+
+.social{
+	text-align: center;
+	height:100%;
+}
+
+.icones_social{
+	align-self: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 24px;
+	height: 24px;
+}
+
+#logo {
+	background: linear-gradient(to bottom, rgba(253,253,253,1) 0%, rgba(197,193,193,1) 100%);
+	width: calc(100%*0.5625);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	max-width: 220px;
+	text-align: center;
+}
+
+.logos_univ_aaue{
+	width:50%;
+	height: 100%;
+	text-align: center;
+}
+
+.logo_barra_cima{
+	vertical-align: middle;
+	align-self: center;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.botoes_header{
+	height: 100%;
+	text-align: center;
+	align-items: center;
+}
+
+#barra_cima{
+	background-color: rgb(173,28,62);
+	overflow: hidden;
+	height:50%;
+	text-align: center;
+	z-index: auto;
+}
+
+.botao_header{
+	width:100%;
+	height: 100%;
+	background-color: rgb(47,47,55);
+}
+
+.botao_header:hover {
+	background-color: rgb(75,153,213);
+}
+
+.botao_header:focus  {
+	background-color: rgb(75,153,213);
+}
+
+.header-dropdown{
+	background-color: rgb(47,47,55);
+	border: none;
+	outline: none;
+	width:100%;
+	height: 100%;
+}
+
+.header-dropdown:hover {
+	background-color: rgb(75,153,213);
+}
+
+.header-dropdown:focus  {
+	background-color: rgb(75,153,213);
+}
+
+#barra_baixo{
+	background-color: rgb(47,47,55);
+	height:50%;
+}
+
+#barra_baixo .botoes_header {
+	width: 100%;
+}
+
+#barra_baixo .botoes_header .botao_header {
+	text-decoration: none;
+	color: white;
+}
+
+#barra_baixo .botoes_header .botao_header{
+	text-decoration: none;
+	color: #ffffff;
+
+	font-weight: 300;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+}
+
+
+.footer-reitor{
+	display: flex;
+	height: 61.5px;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgb(47,47,55);
+}
+
+.footer-text{
+	text-align: center;
+	align-self: center;
+	width: 100%;
+	color: #ffffff;
+	margin:0 auto;
+	font-weight: 300;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+}
+
+.header-menu {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+	display: none;
+	float: left;
+	padding: 5px 0;
+	margin: 2px 0 0;
+	font-size: 14px;
+	text-align: left;
+	list-style: none;
+	color: white;
+	background-color: rgb(47,47,55);
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0, 0, 0, .15);
+	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+.header-menu > li > a {
+	display: block;
+	padding: 3px 20px;
+	clear: both;
+	font-weight: normal;
+	line-height: 1.42857143;
+	color: white;
+	font-weight: 300;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	white-space: nowrap;
+}
+
+.header-menu > li > a:hover,
+.header-menu > li > a:focus {
+	text-decoration: none;
+	background-color: rgb(75,153,213);
+}
+
+.open > .header-menu {
+	display: block;
+}
+
+.open > a {
+	outline: 0;
+}
+
+/******************************************************************/
+
+/***************************************/
+/*     Secção relativa às tabelas      */
+/***************************************/
+
+.botaoGrupos {
+	background-color: #AD1C3E;
+	color: white;
+	font-weight: bold;
+	border: none;
+	height: 50px;
+	border-radius: 0px;
+	margin-bottom: 20px;
+}
+
+.botaoGrupos:hover, ative {
+	background-color: #4B99D5;
+	color: white;
+}
+
+.botaoGrupos:focus,
+.botaoGrupos.focus {
+	color: white;
+	background-color: #4B99D5;
+}
+.botaoGrupos:hover {
+	color: white;
+	background-color: #4B99D5;
+}
+.botaoGrupos:active,
+.botaoGrupos.active,
+.open > .dropdown-toggle.botaoGrupos {
+	color: white;
+	background-color: #4B99D5;
+}
+
+.tabela-riscada {
+	vertical-align: middle;
+	text-align: center;
+	height: 60px;
+	border: 0px;
+}
+
+.tabela-riscada > tbody > tr > td{
+	vertical-align: middle;
+	height: 60px;
+}
+
+
+.tabela-riscada > thead > tr > th {
+	height: 60px;
+	background-color: #AD1C3E;
+	color:white;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.tabela-riscada > tbody > tr:nth-of-type(odd) {
+	background-color: #EBEBEB;
+}
+
+.tabela-riscada > tbody > tr:nth-of-type(even) {
+	background-color: #D9D9D9;
+}
+
+@media screen and (max-width: 767px) {
+	.table-responsive {
+		border: 0px;
+	}
+
+	.botaoGrupos{
+		margin-bottom: 15px;
+	}
+}
+
+/******************************************************************/
+
+/*********************************************/
+/*     Secção relativa ao collapse panel     */
+/*********************************************/
+
+.panel-faq {
+	border-color: #ddd;
+	border: none;
+}
+.panel-faq .panel-heading-0 {
+	text-align: left;
+	padding-left: 20px;
+	color: white;
+	background-color: #AD1C3E;
+	border-color: #ddd;
+}
+
+.panel-faq .panel-heading-1 {
+	text-align: left;
+	padding-left: 20px;
+	color: white;
+	background-color: #8D1833;
+	border-color: #ddd;
+}
+
+.panel-faq > .panel-heading + .panel-collapse > .panel-body {
+	border:none;
+	border-radius: 0px;
+}
+
+.panel-faq > .panel-heading .badge {
+	color: #f5f5f5;
+	background-color: #333;
+}
+
+.panel-faq .panel-body-0 {
+	border-bottom-color: #ddd;
+
+	border: none;
+	color: white;
+	background-color: #AD1C3E;
+}
+
+.panel-faq .panel-body-1 {
+	border-bottom-color: #ddd;
+	color: white;
+	background-color: #8D1833;
+}
+
+.panel-heading{
+	border-radius: 0px;
+}
+
+.seta-baixo-0{
+	padding:20%;
+	background-color: #8D1833;
+}
+
+.seta-baixo-1{
+	padding:20%;
+	background-color: #AD1C3E;
+}
+
+/******************************************************************/
+
+/*********************************************/
+/*     Secção relativa a tabela das equipas  */
+/*********************************************/
+
+.jogadores-tabela{
+	display:table;
+
+}
+
+.jogadores{
+	display: table-row;
+	padding:5px;
+}
+
+
+/**************************************/
+/*     Secção relativa à homepage     */
+/**************************************/
+
+section.success {
+	color: white;
+}
+@media (max-width: 767px) {
+	section {
+		padding: 75px 0;
+	}
+	section.first {
+		padding-top: 75px;
+	}
+}
+
+.contactos {
+	text-align: center;
+	width: 100%;
+	color: #ffffff;
+	margin:0 auto;
+	font-weight: 300;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+}
+.contactos h3 {
+	margin-bottom: 30px;
+}
+.contactos .footer-above {
+	padding-top: 50px;
+	background-color: rgb(47,47,55);
+}
+.contactos .footer-col {
+	margin-bottom: 50px;
+}
+
+.botao-ler-mais{
+	background: none;
+	border: 2px solid white;
+	position: relative;
+	color: white;
+	border-radius: 0;
+	padding: 10px 16px;
+	font-size: 18px;
+	line-height: 1.3333333;
+}
+
+.botao-ler-mais:hover{
+	color:white;
+	background: none;
+	border: 2px solid white;
+	text-decoration: none;
+}
+
+.botao-ler-mais:focus{
+	color:white;
+	background: none;
+	border: 2px solid white;
+}
+
+.imagem-slider{
+	-webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(50%);
+}
+
+#slider{
+	margin: 0 auto;
+	width: 100%;
+}
+
+/*************************************************/
+/*     Secção relativa à pagina dos prémios     */
+/***********************************************/
+
+.premios {
+	background-color: #8D1833;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: 2px solid rgb(47,47,55);
+	margin-bottom: 20px;
+	width: 70%;
+	min-height: 0%;
+}
+
+/*************************************************/
+/*     Secção relativa à pagina do Login     */
+/***********************************************/
+
+.login {
+	background:rgba(0,0,0,0.5);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: 2px solid rgb(47,47,55);
+	margin-bottom: 20px;
+	width: 70%;
+	min-height: 0%;
+}

@@ -17,7 +17,7 @@
           $active = "active";
         endif; ?>
         <div class="item <?php echo $active;?>" >
-          <img class="imagem-slider" src="<?php echo base_url()?>assets/imgs/slider.png" alt="slide-<?php echo $i;?>">
+          <img class="imagem-slider" src="<?php echo base_url()?>assets/imgs/Site_<?php echo $i;?>.jpg" alt="slide-<?php echo $i;?>">
           <div class="container">
             <div class="carousel-caption" style="text-align: left;">
               <h1><?php print_r( $noticia['titulo'] ); ?></h1>

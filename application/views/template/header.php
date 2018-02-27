@@ -9,7 +9,7 @@ $this->load->helper('url');
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Torneio do Reitor</title>
 		<link rel='shortcut icon' type='image/x-icon' href="<?php echo base_url()?>assets/imgs/favicon.ico" />
-		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
 		<link href="<?php echo base_url()?>assets/css/bootstrap.min.css" rel="stylesheet">
 		<link href="<?php echo base_url()?>assets/css/custom.css" rel="stylesheet">
 	</head>
@@ -61,7 +61,7 @@ $this->load->helper('url');
 								<button class="header-dropdown dropdown-toggle" type="button"
 												data-toggle="dropdown" aria-haspopup="true"
 												aria-expanded="true">
-									XV TORNEIO MASCULINO
+									TORNEIO MASCULINO
 									<span class="caret"></span>
 								</button>
 
@@ -89,7 +89,7 @@ $this->load->helper('url');
 								<button class="header-dropdown dropdown-toggle" type="button"
 												data-toggle="dropdown" aria-haspopup="true"
 												aria-expanded="true">
-									VIII TORNEIO FEMININO
+									TORNEIO FEMININO
 									<span class="caret"></span>
 								</button>
 

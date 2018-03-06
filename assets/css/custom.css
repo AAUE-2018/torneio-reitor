@@ -156,7 +156,7 @@ p, li {
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	background-color: rgb(47,47,55);
+	background-color: rgba(64, 46, 86, 0.3);
 }
 
 .footer-text{
@@ -406,7 +406,7 @@ section.success {
 }
 .contactos .footer-above {
 	padding-top: 50px;
-	background-color: rgb(47,47,55);
+	background-color: rgba(64, 46, 86, 0.3);
 }
 .contactos .footer-col {
 	margin-bottom: 50px;
